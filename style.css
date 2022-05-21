@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body{
+    background-image: radial-gradient(circle at 107.92% 90.56%, #008dcb 0, #008bd3 5.56%, #0089da 11.11%, #0087df 16.67%, #0084e2 22.22%, #0080e4 27.78%, #007ce4 33.33%, #1a77e1 38.89%, #4f72de 44.44%, #6c6cd8 50%, #8366d1 55.56%, #955fc8 61.11%, #a559be 66.67%, #b352b4 72.22%, #be4ca8 77.78%, #c7469b 83.33%, #cd428e 88.89%, #d23f81 94.44%, #d63d74 100%);
+  background-size: 100%;
+}
+
+main{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 40px auto;
+    background: rgb(163, 185, 187);
+    display: block;
+    
+}
+
+#title{
+    padding-top: 50px;
+    margin: 0 0 50px 0;
+}
+ 
+h1{
+    color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form input{
+    display: block;
+}
+
+
+.input{
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: rgb(231, 195, 214);
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: red;
+    font-size: 18px;
+    
+}
+
+button:hover{
+    background: #b4c9db;
+}
+
+button:active{
+    opacity: .7;
+}
